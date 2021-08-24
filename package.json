@@ -8,6 +8,7 @@
   },
    "scripts": {
       "start": "tsc && node ./build/index.js",
+      "build": "tsc",
       "dev": "clear && ts-node-dev ./src/index.ts",
       "test": "jest"
    },
