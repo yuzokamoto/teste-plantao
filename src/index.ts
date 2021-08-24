@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const PORT = process.env.PORT || 3003;
+const PORT = Number(process.env.PORT) || 3003;
 app.listen(PORT, () => {
     console.log(`App is running on port ${ PORT }`);
 });
